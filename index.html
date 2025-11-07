@@ -1,45 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>林彤恩個人網站</title>
+    <title>04林彤恩個人網站</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #9abed1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #95acc7;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  /*height: 50px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #b95790;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
 </head>
-<body   align="center">
-    <h1 style="color:rgb(185, 108, 173);">彤恩的旅程</h1>
-    <hr>
-    <p  style="color:rgb(8, 95, 59);">分享我的創意與故事，記錄人生每一個精彩瞬間</p>
-    <p  style="color:rgb(5, 88, 42);">生日及星座：12/17 射手座</p>
-    <p  style="color:rgb(4, 77, 34);">畢業學校：南崗國中</p>
-    <br><br>
-    <p  style="color:rgb(6, 88, 40);">個人特色亮點：煮拉麵技術讚讚讚</p>
-    <p  style="color:rgb(4, 70, 31);">期待：希望可以順利畢業</p>
+<body>
+
+<h1 style="color:rgb(185, 108, 173);">《記錄人生，創作無限》</h1>
+<p>分享我的創意與故事，記錄人生每一個精彩瞬間</p>
+<p>我熱衷於分享創意與故事，將人生中的每一個精彩瞬間記錄下來，無論是日常的點滴還是心靈的碰撞。我相信每個故事背後都有值得傳遞的價值與情感，透過文字或影像，將我的思考與經歷呈現給世界，激發共鳴與啟發。每個創作都是對生活的詮釋，也是一段自我成長的旅程。</p>
+
+<header>
+  <h1 style="color:rgb(15, 32, 107);">彤恩的旅程</h1>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">我的AI個人照</a></li>
+      <li><a href="#">我的平時生活</a></li>
+      <li><a href="#">我的學習成果</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 style="color:rgb(185, 108, 173);">我的AI個人照</h1>
     <img style="width:60%;" src="1.png">
-    <p><a href="index.html">彤恩的旅程</a></p>
-    <p><button onclick="alert('ok');">我是按鈕</button></p>
-    <p>我是彤恩，射手座女孩，畢業於南崗國中，<span style="color:rgb(72, 11, 141);">熱愛分享生活與創意故事</span>，喜歡用文字記錄每一個精彩瞬間。煮拉麵是我的拿手絕活，朋友都說「讚讚讚」！個性樂觀、勇於嘗試新事物，<span style="color:rgb(3, 94, 86);">期待能順利畢業</span>，邁向更精彩的人生旅程。</p>
-    <p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.454884983383!2d120.67827887590052!3d23.908941182670322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693115b0afb3b1%3A0x12636c234990a8fb!2z5Y2X5oqV6auY5Lit6Zu75a2Q5ZWG5YuZ56eR!5e0!3m2!1szh-TW!2stw!4v1760948337615!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ndnkVJWILVE?si=FDLKzG2xgCrCseDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/ntsh2231175&tabs=timeline,events,messages&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-    width="340"
-    height="500"
-    style="border:none;overflow:hidden"
-    scrolling="no"
-    frameborder="0"
-    allowfullscreen="true"
-    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-  </iframe>
-  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F1279088283955481%2F&width=500&show_text=false&height=280&appId"
-  width="500"
-  height="280"
-  style="border:none;overflow:hidden"
-  scrolling="no"
-  frameborder="0"
-  allowfullscreen="true"
-  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-  allowFullScreen="true">
-</iframe>
+    <p>這張照片中的女孩站在戶外，背景是晴朗的天空和現代建築。她穿著簡單的灰色上衣，笑容溫柔，頭髮短而俐落，透著自然的輕鬆感。陽光照射在她的臉上，顯得格外清新怡人。</p>
+  </article>
+</section>
+
+<footer>
+  <p>©版權所有.國立南投高級中學電商二04林彤恩</p>
+</footer>
 
 </body>
 </html>
+
