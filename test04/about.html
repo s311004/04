@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>關於我</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #95acc7;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  /*height: 50px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #6e646a00;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+h1 {
+  font-size:40px;
+  color:crimson(0, 98%, 50%);
+  text-align:center;
+}
+.t1 {
+  text-align:center;
+  color :#9abed1
+}
+
+</style>
+</head>
+<body>
+
+<h1 style="color:rgb(173, 94, 163);">《彤恩的簡介》</h1>
+
+
+<header>
+  <h1 style="color:rgb(63, 77, 143);">我的學習心得</h1>
+  <p  style="color:rgb(4, 70, 31);">我是4號林彤恩，現在在南投高中電商科二年級</p>
+  <p  style="color:rgb(8, 95, 59);">分享我的創意與故事，記錄人生每一個精彩瞬間</p>
+    <p  style="color:rgb(5, 88, 42);">生日及星座：12/17 射手座</p>
+    <p  style="color:rgb(4, 77, 34);">畢業學校：南崗國中</p>
+    <p  style="color:rgb(4, 70, 31);">期待：希望可以順利畢業</p>
+
+
+</header>
+
+<address></address>
+  聯絡方式:s311004@ntsh.ntct.edu.tw
+</address>
+
+
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="introduce.html">特色介紹</a></li>
+      <li><a href="about.html">關於我們</a></li>
+      <li><a href="index.html">回首頁</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <p>這學期上網頁設計是我第一次接觸到這個，一開始對一切都很陌生，什麼也不會，到現在會可以在期末考時做出這些，這讓我感到很開心，學了很久終於學會了。過程中也遇到很多困難，老師也都很細心指導我，因此我進步很多，在這學期的課程中，我學到了如何設計出一個網頁，也使用了HTML教育學習網的範例來做我的設計，以及字體大小及配色，這些都是我在課程中學習到的，一學期過去，這堂課讓我成就感滿滿，雖然我做的不是很好，也很不擅長，但我會盡我所能努力學好網頁設計。</p>
+        <img style="width:60%;" src="C:\Users\NTSH-EC\Desktop\web04\1.png">
+      </article>
+</section>
+
+<footer>
+  <p>©版權所有.國立南投高級中學電商二04林彤恩</p>
+</footer>
+
+</body>
+</html>
